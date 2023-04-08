@@ -6,9 +6,11 @@ import './ContactForm.css'
 
 export default function ContactUs() {
     function handleSendMessage(){
-        let message =document.getElementsByName("wa-message").value;
-        window.open('https://api.whatsapp.com/send?phone=6285640007695' + '&text=%20' + message, '_blank');
+        let message =document.getElementById("wa-message").value;
+        let encodedMessage = encodeURI(message);
+        window.open('https://api.whatsapp.com/send?phone=6289512216735' + '&text=' + encodedMessage, '_blank');
     }
+    
   return (
     <section className="section-contact" id='contact-us'>
         <div className="container">
@@ -23,7 +25,7 @@ export default function ContactUs() {
             <div className="row justify-content-center text-center">
                 <div className='col-md-5'>
                     <form>
-                        <textarea className="form-control mb-4" rows="6" placeholder="MESSAGE" name="wa-message" required></textarea>
+                        <textarea className="form-control mb-4" rows="6" placeholder="MESSAGE" name="wa-message" id="wa-message" required></textarea>
                         <MDBBtn type='submit' onClick={()=> handleSendMessage()}>
                             Whatsapp Admin
                         </MDBBtn>

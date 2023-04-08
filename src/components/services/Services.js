@@ -18,12 +18,12 @@ export default function Services() {
                         <div className="single-service">
                             <div className="content">
                                 <span className="icon">
-                                    <i class="fa fa-camera" aria-hidden="true"></i>
+                                    <i className="fa fa-camera" aria-hidden="true"></i>
                                 </span>
                             </div>
                             <div className='caption'>
                                 <h3 className="title">Photo</h3>
-                                <p className="description">Morbi facilisis, justo eu vulputate elementum, est augue tincidunt ante, sed efficitur leo ligula vel velit.</p>
+                                <p className="description">Kami melayani jasa dokumentasi foto pernikahan, pre-wedding, lamaran, ulang tahun, wisuda dan momen berharga yang ingin Anda abadikan.</p>
                             </div>
                         </div>
                     </div>
@@ -31,10 +31,10 @@ export default function Services() {
                         <div className="single-service">
                             <div className="content">
                                 <span className="icon">
-                                    <i class="fa fa-video-camera" aria-hidden="true"></i>
+                                    <i className="fa fa-video-camera" aria-hidden="true"></i>
                                 </span>
                                 <h3 className="title">Video</h3>
-                                <p className="description">Morbi facilisis, justo eu vulputate elementum, est augue tincidunt ante, sed efficitur leo ligula vel velit.</p>
+                                <p className="description">Kami juga melayani jasa dokumentasi dalam bentuk videografi untuk momen berharga maupun acara penting yang ingin Anda abadikan.</p>
                             </div>
                         </div>
                     </div>
@@ -44,8 +44,8 @@ export default function Services() {
                                 <span className="icon">
                                     <i className="fab fa-artstation"></i>
                                 </span>
-                                <h3 className="title">Many Event</h3>
-                                <p className="description">Morbi facilisis, justo eu vulputate elementum, est augue tincidunt ante, sed efficitur leo ligula vel velit.</p>
+                                <h3 className="title">Event</h3>
+                                <p className="description">Selain acara pernikahan, kami juga bisa mengabadikan momen berharga di acara korporasi, institusi, maupun organisasi Anda.</p>
                             </div>
                         </div>
                     </div>

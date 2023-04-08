@@ -57,7 +57,7 @@ export default function Home() {
           <div className="hero-text">
             <h1>Fascio Photo & Film</h1>
             <p>Menangkap momen-momen berharga dalam hidup.</p>
-            <form action="https://wa.me/6285640007695" target="_blank">
+            <form action="https://wa.me/6289512216735" target="_blank">
               <button>Contact Us</button>
             </form>
           </div>

@@ -9,13 +9,17 @@ export default function PriceList() {
                     <div className="col-md-10 col-lg-8">
                         <div className="header-section">
                             <h2 className="title">Daftar Harga</h2>
-                            {/* <p className="description">"Tangkap kenangan yang akan bertahan seumur hidup dengan layanan studio foto profesional kami."</p> */}
                         </div>
                     </div>
                 </div>
                 <div className='row justify-content-center text-center'>
                     <div className='pricelist-content'>
-                        <button>Unduh Daftar Harga</button>
+                        <form 
+                            action='https://wa.link/2ta1yt'
+                            target='_blank'
+                        >
+                            <button type='submit'>Minta Daftar Harga</button>
+                        </form>
                     </div>
                 </div>
             </div>

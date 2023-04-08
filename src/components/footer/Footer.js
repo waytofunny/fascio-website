@@ -27,7 +27,7 @@ export default function Footer() {
                                 <i className="fas fa-phone"></i>
                                 <div className="cta-text">
                                     <h4>Call us</h4>
-                                    <span>+6285640007695</span>
+                                    <span>+6289512216735</span>
                                 </div>
                             </div>
                         </div>
@@ -55,7 +55,6 @@ export default function Footer() {
                                 <div className="footer-social-icon">
                                     <span>Follow us</span>
                                     <a href="https://www.instagram.com/fasciophoto/"><i className="fab fa-instagram facebook-bg"></i></a>
-                                    <a href="https://twitter.com/wtstomi"><i className="fab fa-twitter twitter-bg"></i></a>
                                     <a href="mailto:fasciophotography@gmail.com"><i className="fab fa-google-plus-g google-bg"></i></a>
                                 </div>
                             </div>

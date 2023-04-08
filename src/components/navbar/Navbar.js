@@ -10,11 +10,9 @@ import {
   MDBIcon,
   MDBNavbarNav
 } from 'mdb-react-ui-kit';
-import { Link } from "react-scroll";
 import './Navbar.css';
 import { useEffect } from 'react';
 import logo from '../../images/fascio.png'
-import scrollElement from 'react-scroll/modules/mixins/scroll-element';
 
 export default function Navbar() {
   const [showNavNoTogglerSecond, setShowNavNoTogglerSecond] = useState(false);
@@ -41,15 +39,6 @@ export default function Navbar() {
   useEffect(() => {
     window.addEventListener("scroll", listenScrollEvent);
   });
-
-  const handleClickScroll = (props) => {
-    console.log(props)
-    const element = document.getElementById(props);
-    if (element) {
-      // 👇 Will scroll smoothly to the top of the next section
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
 
   return (
     <>      

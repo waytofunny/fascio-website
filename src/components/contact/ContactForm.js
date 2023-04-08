@@ -1,7 +1,5 @@
 import React from 'react';
 import {
-  MDBInput,
-  MDBCheckbox,
   MDBBtn
 } from 'mdb-react-ui-kit';
 import './ContactForm.css'

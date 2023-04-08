@@ -1,0 +1,59 @@
+.section-pricelist {
+    font-family: "Times New Roman", Times, serif;
+	background-color: rgb(230, 215, 182);
+	padding-top: 4vh;
+    padding-bottom: 120px;
+}
+
+.section-pricelist .header-section {
+	margin-bottom: 34px;
+}
+
+.section-pricelist .header-section .title {
+	position: relative;
+    padding-bottom: 14px;
+    margin-bottom: 25px;
+	font-weight: 700;
+    font-size: 32px;
+}
+.section-pricelist .header-section .title:before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 50px;
+	height: 3px;
+	background-color: rgba(51, 45, 45);
+    border-radius: 3px;
+}
+
+.section-pricelist .header-section .title:after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+    transform: translateX(30px);
+	width: 10px;
+	height: 3px;
+	background-color: #646464;
+    border-radius: 3px;
+}
+
+.pricelist-content button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    margin-top: 25px;
+    padding: 10px 25px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(51, 45, 45);
+    text-align: center;
+    cursor: pointer;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.7vw;
+  }
+
+.pricelist-content button:hover {
+    background-color: rgb(176, 157, 118);
+  }
